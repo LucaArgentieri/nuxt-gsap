@@ -1,0 +1,1 @@
+export { gsap } from 'gsap'
