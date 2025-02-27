@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useDraggable() {
+export const useDraggable = (): typeof Draggable => {
   const { $Draggable } = useNuxtApp()
   if (!$Draggable) {
     console.warn('[useDraggable] Draggable not registered!')
   }
-  return $Draggable
+  return $Draggable as typeof Draggable
 }

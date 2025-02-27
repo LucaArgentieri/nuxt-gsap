@@ -1,4 +1,4 @@
-import { availablePlugins } from './available-plugins'
+import { availablePlugins } from './available-gsap-plugins'
 import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 
 export default defineNuxtPlugin(async (_nuxtApp) => {

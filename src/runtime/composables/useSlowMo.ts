@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useSlowMo() {
+export const useSlowMo = (): typeof SlowMo => {
   const { $SlowMo } = useNuxtApp()
   if (!$SlowMo) {
     console.warn('[useSlowMo] SlowMo not registered!')
   }
-  return $SlowMo
+  return $SlowMo as typeof SlowMo
 }

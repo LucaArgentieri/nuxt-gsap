@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useTextPlugin() {
+export const useTextPlugin = (): typeof TextPlugin => {
   const { $TextPlugin } = useNuxtApp()
   if (!$TextPlugin) {
     console.warn('[useTextPlugin] TextPlugin not registered!')
   }
-  return $TextPlugin
+  return $TextPlugin as typeof TextPlugin
 }

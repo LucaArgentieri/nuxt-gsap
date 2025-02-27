@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useMotionPathPlugin() {
+export const useMotionPathPlugin = (): typeof MotionPathPlugin => {
   const { $MotionPathPlugin } = useNuxtApp()
   if (!$MotionPathPlugin) {
     console.warn('[useMotionPathPlugin] MotionPathPlugin not registered!')
   }
-  return $MotionPathPlugin
+  return $MotionPathPlugin as typeof MotionPathPlugin
 }

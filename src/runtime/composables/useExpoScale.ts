@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useExpoScaleEase() {
+export const useExpoScaleEase = (): typeof ExpoScaleEase => {
   const { $ExpoScaleEase } = useNuxtApp()
   if (!$ExpoScaleEase) {
     console.warn('[useExpoScaleEase] ExpoScaleEase not registered!')
   }
-  return $ExpoScaleEase
+  return $ExpoScaleEase as typeof ExpoScaleEase
 }

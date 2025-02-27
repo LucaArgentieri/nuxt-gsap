@@ -9,6 +9,9 @@ export default defineNuxtModule <ModuleOptions> ({
   meta: {
     name: '@nuxt/gsap',
     configKey: 'gsap',
+    compatibility: {
+      nuxt: '>=3.0.0',
+    },
   },
   defaults: {
     plugins: [],

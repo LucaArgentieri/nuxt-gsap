@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useCustomEase() {
+export const useCustomEase = (): typeof CustomEase => {
   const { $CustomEase } = useNuxtApp()
   if (!$CustomEase) {
     console.warn('[useCustomEase] CustomEase not registered!')
   }
-  return $CustomEase
+  return $CustomEase as typeof CustomEase
 }

@@ -16,13 +16,10 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 **Enhance your Nuxt application with powerful animations and transitions using GSAP!**
 
+- [**GSAP**](https://gsap.com/)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
   <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
-
-## Features
-
-<!-- Highlight some of the features your module provide here -->
 
 ## Features
 
@@ -30,7 +27,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 - **Dynamic Plugin Registration**: Import and register GSAP plugins only if enabled in `nuxt.config.ts`, optimizing performance.
 - **Composable for Each Plugin**: Use GSAP plugins as composables for a simple and direct experience.
 
-## Quick Setup
+## Quick Setup ⚠️ (The installation is not yet ready)
 
 1. Install the module to your Nuxt application with one command:
 
@@ -62,10 +59,6 @@ export default defineNuxtConfig({
 2. Here's how to use the ScrollTrigger plugin in your component:
 
 ```js
-<template>
-  <div ref="elementRef">Drag me!</div>
-</template>
-
 <script setup lang="ts">
 const Draggable = useDraggable()
 
@@ -75,6 +68,10 @@ onMounted(() => {
   Draggable.create(elementRef.value)
 })
 </script>
+
+<template>
+  <div ref="elementRef">Drag me!</div>
+</template>
 ```
 
 That's it! You can now use @nuxt/gsap in your Nuxt app ✨

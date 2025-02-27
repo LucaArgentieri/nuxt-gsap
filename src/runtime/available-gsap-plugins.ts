@@ -1,3 +1,7 @@
+/**
+ * This object contains lazy-loaded GSAP plugins for use in the application.
+ */
+
 export const availablePlugins = {
   Draggable: () => import('gsap/Draggable').then(mod => mod.Draggable),
   EaselPlugin: () => import('gsap/EaselPlugin').then(mod => mod.EaselPlugin),

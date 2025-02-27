@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useScrollToPlugin() {
+export const useScrollToPlugin = (): typeof ScrollToPlugin => {
   const { $ScrollToPlugin } = useNuxtApp()
   if (!$ScrollToPlugin) {
     console.warn('[useScrollToPlugin] ScrollToPlugin not registered!')
   }
-  return $ScrollToPlugin
+  return $ScrollToPlugin as typeof ScrollToPlugin
 }

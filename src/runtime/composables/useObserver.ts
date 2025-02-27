@@ -1,9 +1,9 @@
 import { useNuxtApp } from '#app'
 
-export function useObserver() {
+export const useObserver = (): typeof Observer => {
   const { $Observer } = useNuxtApp()
   if (!$Observer) {
     console.warn('[useObserver] Observer not registered!')
   }
-  return $Observer
+  return $Observer as typeof Observer
 }
