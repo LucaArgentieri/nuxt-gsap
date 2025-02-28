@@ -56,10 +56,10 @@ export default defineNuxtConfig({
 });
 ```
 
-2. Here's how to use the ScrollTrigger plugin in your component:
+2. Here's how to use the Draggable plugin in your component:
 
 ```js
-<script setup lang="ts">
+<script setup>
 const Draggable = useDraggable()
 
 const elementRef = ref(null)
@@ -73,6 +73,8 @@ onMounted(() => {
   <div ref="elementRef">Drag me!</div>
 </template>
 ```
+
+##### You can find more examples in playground
 
 That's it! You can now use @nuxt/gsap in your Nuxt app ✨
 

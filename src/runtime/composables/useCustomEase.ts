@@ -3,7 +3,7 @@ import { useNuxtApp } from '#app'
 export const useCustomEase = (): typeof CustomEase => {
   const { $CustomEase } = useNuxtApp()
   if (!$CustomEase) {
-    console.warn('[useCustomEase] CustomEase not registered!')
+    throw new Error('[useCustomEase] CustomEase not registered! Did you enable it in nuxt.config.ts?')
   }
   return $CustomEase as typeof CustomEase
 }

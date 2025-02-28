@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: '2025-02-26',
   gsap: {
-    plugins: ['Draggable'],
+    plugins: ['Draggable', 'EaselPlugin', 'Flip', 'MotionPathPlugin', 'Observer', 'PixiPlugin', 'ScrollToPlugin', 'ScrollTrigger', 'TextPlugin', 'RoughEase', 'ExpoScaleEase', 'SlowMo', 'CustomEase'],
   },
 })
