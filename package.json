@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/gsap",
+  "name": "@gsap/nuxt",
   "version": "1.0.0",
   "description": "GSAP integration for Nuxt.",
   "repository": "LucaArgentieri/nuxt-gsap",
