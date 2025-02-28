@@ -1,8 +1,9 @@
 {
-  "name": "@nuxt/gsap",
+  "name": "@nuxtjs/gsap",
   "version": "1.0.0",
   "description": "GSAP integration for Nuxt.",
   "repository": "LucaArgentieri/nuxt-gsap",
+  "author": "Luca Argentieri",
   "license": "MIT",
   "type": "module",
   "exports": {
