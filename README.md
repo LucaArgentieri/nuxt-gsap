@@ -111,11 +111,11 @@ That's it! You can now use gsap-nuxt-module in your Nuxt app ✨
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/gsap-nuxt-module /latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-src]: https://img.shields.io/npm/v/gsap-nuxt-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
 [npm-version-href]: https://npmjs.com/package/gsap-nuxt-module
-[npm-downloads-src]: https://img.shields.io/npm/dm/gsap-nuxt-module .svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-src]: https://img.shields.io/npm/dm/gsap-nuxt-module.svg?style=flat&colorA=020420&colorB=00DC82
 [npm-downloads-href]: https://npm.chart.dev/gsap-nuxt-module
-[license-src]: https://img.shields.io/npm/l/gsap-nuxt-module .svg?style=flat&colorA=020420&colorB=00DC82
+[license-src]: https://img.shields.io/npm/l/gsap-nuxt-module.svg?style=flat&colorA=020420&colorB=00DC82
 [license-href]: https://npmjs.com/package/gsap-nuxt-module
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
