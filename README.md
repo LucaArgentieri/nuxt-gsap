@@ -27,12 +27,16 @@ Find and replace all on all files (CMD+SHIFT+F):
 - **Dynamic Plugin Registration**: Import and register GSAP plugins only if enabled in `nuxt.config.ts`, optimizing performance.
 - **Composable for Each Plugin**: Use GSAP plugins as composables for a simple and direct experience.
 
-## Quick Setup ⚠️ (The installation is not ready yet)
+## Quick Setup
 
 1. Install the module to your Nuxt application with one command:
 
-```bash
+<!-- ```bash
 npx nuxi module add gsap-nuxt-module
+``` -->
+
+```bash
+ npm i gsap-nuxt-module
 ```
 
 2. Add gsap-nuxt-module to the modules section of nuxt.config.ts
