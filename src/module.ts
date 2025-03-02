@@ -7,7 +7,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule <ModuleOptions> ({
   meta: {
-    name: '@gsap/nuxt',
+    name: 'gsap-nuxt-module',
     configKey: 'gsap',
     compatibility: {
       nuxt: '>=3.0.0',

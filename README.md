@@ -2,12 +2,12 @@
 Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
-- Name: @gsap/nuxt
-- Package name: @gsap/nuxt
+- Name: gsap-nuxt-module
+- Package name: gsap-nuxt-module
 - Description: GSAP integration for Nuxt.
 -->
 
-# @gsap/nuxt
+# gsap-nuxt-module
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -18,7 +18,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 - [**GSAP**](https://gsap.com/)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/@gsap/nuxt  ?file=playground%2Fapp.vue) -->
+  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/gsap-nuxt-module  ?file=playground%2Fapp.vue) -->
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
@@ -32,14 +32,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 1. Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add @gsap/nuxt
+npx nuxi module add gsap-nuxt-module
 ```
 
-2. Add @gsap/nuxt to the modules section of nuxt.config.ts
+2. Add gsap-nuxt-module to the modules section of nuxt.config.ts
 
 ```bash
 export default defineNuxtConfig({
-  modules: ['@gsap/nuxt'],
+  modules: ['gsap-nuxt-module'],
 })
 ```
 
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 
 ```js
 export default defineNuxtConfig({
-  modules: ["@gsap/nuxt"],
+  modules: ["gsap-nuxt-module"],
   gsap: {
     plugins: ["Draggable"],
   },
@@ -76,7 +76,7 @@ onMounted(() => {
 
 ##### You can find more examples in playground
 
-That's it! You can now use @gsap/nuxt in your Nuxt app ✨
+That's it! You can now use gsap-nuxt-module in your Nuxt app ✨
 
 ## Contribution
 
@@ -111,11 +111,11 @@ That's it! You can now use @gsap/nuxt in your Nuxt app ✨
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@gsap/nuxt /latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/@gsap/nuxt
-[npm-downloads-src]: https://img.shields.io/npm/dm/@gsap/nuxt .svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/@gsap/nuxt
-[license-src]: https://img.shields.io/npm/l/@gsap/nuxt .svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/@gsap/nuxt
+[npm-version-src]: https://img.shields.io/npm/v/gsap-nuxt-module /latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/gsap-nuxt-module
+[npm-downloads-src]: https://img.shields.io/npm/dm/gsap-nuxt-module .svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/gsap-nuxt-module
+[license-src]: https://img.shields.io/npm/l/gsap-nuxt-module .svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/gsap-nuxt-module
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
