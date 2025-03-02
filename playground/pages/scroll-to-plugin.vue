@@ -1,5 +1,5 @@
 <script setup>
-const ScrollToPlugin = useScrollToPlugin()
+// const ScrollToPlugin = useScrollToPlugin()
 
 const nuxtLogoRef = ref(null)
 const gsapLogoRef = ref(null)

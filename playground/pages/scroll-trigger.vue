@@ -1,5 +1,5 @@
 <script setup>
-const ScrollTrigger = useScrollTrigger()
+// const ScrollTrigger = useScrollTrigger()
 
 const nuxtLogoRef = ref(null)
 const gsapLogoRef = ref(null)

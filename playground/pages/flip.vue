@@ -19,7 +19,7 @@ onMounted(() => {
 
   // Given an Array of two siblings, append the one that's first so it's last (swap)
   const swap = ([a, b]) => {
-    a.parentNode.children[0] === a ? a.parentNode.appendChild(a) : a.parentNode.appendChild(b)
+    return a.parentNode.children[0] === a ? a.parentNode.appendChild(a) : a.parentNode.appendChild(b)
   }
 
   doFlip()

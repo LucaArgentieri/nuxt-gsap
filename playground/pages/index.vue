@@ -5,16 +5,16 @@ const nuxtLogoRef = ref(null)
 const gsapLogoRef = ref(null)
 
 onMounted(() => {
-    Draggable.create(nuxtLogoRef.value.$el)
-    Draggable.create(gsapLogoRef.value.$el)
+  Draggable.create(nuxtLogoRef.value.$el)
+  Draggable.create(gsapLogoRef.value.$el)
 })
 </script>
 
 <template>
-    <main>
-        <NuxtLogo ref="nuxtLogoRef" />
-        <GSAPLogo ref="gsapLogoRef" />
-    </main>
+  <main>
+    <NuxtLogo ref="nuxtLogoRef" />
+    <GSAPLogo ref="gsapLogoRef" />
+  </main>
 </template>
 
 <style scoped>
