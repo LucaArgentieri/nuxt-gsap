@@ -6,6 +6,11 @@
   "author": "Luca Argentieri",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "gsap"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",

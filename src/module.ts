@@ -3,6 +3,7 @@ import { defineNuxtModule, addPlugin, createResolver, addImportsDir } from '@nux
 
 export interface ModuleOptions {
   plugins?: string[]
+  token?: string
 }
 
 export default defineNuxtModule <ModuleOptions> ({
@@ -15,6 +16,7 @@ export default defineNuxtModule <ModuleOptions> ({
   },
   defaults: {
     plugins: [],
+    token: null,
   },
   setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
