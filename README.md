@@ -79,7 +79,7 @@ onMounted(() => {
 </template>
 ```
 
-##### You can find more examples in playground
+##### You can find more examples in [playground](https://github.com/LucaArgentieri/gsap-nuxt-module/tree/main/playground/pages)
 
 That's it! You can now use gsap-nuxt-module in your Nuxt app ✨
 
