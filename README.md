@@ -7,7 +7,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: GSAP integration for Nuxt.
 -->
 
-![gsap-nuxt-module]()
+![gsap-nuxt-module](https://github.com/LucaArgentieri/gsap-nuxt-module/blob/main/docs/public/social-card.jpg)
 
 # gsap-nuxt-module
 
