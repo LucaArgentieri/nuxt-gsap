@@ -1,4 +1,5 @@
-import { gsapPlugins } from './utils/gsap-plugins'
+import { gsap } from 'gsap'
+import { gsapPlugins } from './plugins'
 import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 /**
  * Register GSAP plugins only if required in module options
