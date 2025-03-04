@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v1.1.0
+
+[compare changes](https://github.com/LucaArgentieri/gsap-nuxt-module/compare/v1.0.2...v1.1.0)
+
+### 🚀 Enhancements
+
+- Reorganize GSAP plugins structure and remove unused files ([1ffa1b7](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/1ffa1b7))
+
+### 🩹 Fixes
+
+- Update README for quick setup instructions and correct package version in package.json ([78509f0](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/78509f0))
+- Comment out test job in CI workflow for temporary disablement ([ee69ee7](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/ee69ee7))
+- Update README with correct links for online playground and GSAP documentation ([992b3ad](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/992b3ad))
+
+### ❤️ Contributors
+
+- LucaArgentieri <lucaargentieri-98@hotmail.it>
+
 ## v1.0.2
 
 [compare changes](https://github.com/LucaArgentieri/gsap-nuxt-module/compare/v1.0.1...v1.0.2)
