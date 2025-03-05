@@ -48,6 +48,24 @@ export default defineNuxtConfig({
 })
 ```
 
+3. Here's how to use GSAP in your component:
+
+```js
+<script setup>
+const elementRef = ref(null)
+
+onMounted(() => {
+  gsap.to(elementRef.value, {
+    x: 100
+  })
+})
+</script>
+
+<template>
+  <div ref="elementRef">Drag me!</div>
+</template>
+```
+
 ## Example Configuration
 
 1. In your nuxt.config.ts, enable the desired GSAP plugins:
