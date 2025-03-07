@@ -62,7 +62,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="elementRef">Drag me!</div>
+  <div ref="elementRef">GSAP me!</div>
 </template>
 ```
 
