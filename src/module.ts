@@ -16,7 +16,6 @@ export default defineNuxtModule <ModuleOptions> ({
   },
   defaults: {
     plugins: [],
-    token: null,
   },
   setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
