@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/LucaArgentieri/gsap-nuxt-module/compare/v1.1.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Add logo placeholder to README for gsap-nuxt-module ([ccc73e1](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/ccc73e1))
+
+### 🩹 Fixes
+
+- Comment out unused GSAP Club plugins and import gsap in plugin file ([5e29da7](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/5e29da7))
+
+### 💅 Refactors
+
+- Reorganize GSAP plugins structure and remove unused files ([21086a9](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/21086a9))
+- Update ModuleOptions to restrict plugins and remove unused GSAP Club plugins ([dd80046](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/dd80046))
+
+### 🏡 Chore
+
+- **release:** V1.1.0 ([9b179a9](https://github.com/LucaArgentieri/gsap-nuxt-module/commit/9b179a9))
+
+### ❤️ Contributors
+
+- LucaArgentieri <lucaargentieri-98@hotmail.it>
+
 ## v1.1.0
 
 [compare changes](https://github.com/LucaArgentieri/gsap-nuxt-module/compare/v1.0.2...v1.1.0)
