@@ -7,6 +7,8 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: GSAP integration for Nuxt.
 -->
 
+![gsap-nuxt-module](https://github.com/LucaArgentieri/gsap-nuxt-module/blob/main/docs/public/social-card.jpg)
+
 # gsap-nuxt-module
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -16,10 +18,9 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 **Enhance your Nuxt application with powerful animations and transitions using GSAP!**
 
-- [**GSAP**](https://gsap.com/)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/gsap-nuxt-module  ?file=playground%2Fapp.vue) -->
-  <!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [🏀 Online playground](https://stackblitz.com/edit/gsap-nuxt-module?file=app.vue)
+- [📖 GSAP](https://gsap.com/)
 
 ## Features
 
@@ -45,6 +46,24 @@ npx nuxi module add gsap-nuxt-module
 export default defineNuxtConfig({
   modules: ['gsap-nuxt-module'],
 })
+```
+
+3. Here's how to use GSAP in your component:
+
+```js
+<script setup>
+const elementRef = ref(null)
+
+onMounted(() => {
+  gsap.to(elementRef.value, {
+    x: 100
+  })
+})
+</script>
+
+<template>
+  <div ref="elementRef">GSAP me!</div>
+</template>
 ```
 
 ## Example Configuration
@@ -78,7 +97,7 @@ onMounted(() => {
 </template>
 ```
 
-##### You can find more examples in playground
+##### You can find more examples in [playground](https://github.com/LucaArgentieri/gsap-nuxt-module/tree/main/playground/pages)
 
 That's it! You can now use gsap-nuxt-module in your Nuxt app ✨
 
