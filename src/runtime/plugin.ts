@@ -1,3 +1,4 @@
+import { gsap } from 'gsap'
 import { gsapPlugins } from './gsap-plugins'
 import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 
