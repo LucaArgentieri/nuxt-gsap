@@ -2,8 +2,7 @@ import { fileURLToPath } from 'node:url'
 import { defineNuxtModule, addPlugin, createResolver, addImportsDir } from '@nuxt/kit'
 
 export interface ModuleOptions {
-  plugins?: string[]
-  token?: string
+  plugins?: ('Draggable' | 'EaselPlugin' | 'Flip' | 'MotionPathPlugin' | 'Observer' | 'PixiPlugin' | 'ScrollToPlugin' | 'ScrollTrigger' | 'TextPlugin' | 'RoughEase' | 'ExpoScaleEase' | 'SlowMo' | 'CustomEase')[]
 }
 
 export default defineNuxtModule <ModuleOptions> ({
